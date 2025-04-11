@@ -1,0 +1,20 @@
+{
+  "nombre": "Alejandro",
+  "apellido1": "Lopez",
+  "apellido2": "Serrano",
+  "edad": 40,
+  "cometas": [
+    {
+      "vientoMinimo": 20,
+      "ubicacionUso": "Valencia"
+    },
+    {
+      "vientoMinimo": 20,
+      "ubicacionUso": "Valladolid"
+    },
+    {
+      "vientoMinimo": 20,
+      "ubicacionUso": "Zamora"
+    }
+  ]
+}

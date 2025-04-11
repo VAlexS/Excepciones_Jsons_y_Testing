@@ -1,0 +1,63 @@
+[
+  {
+    "nombre": "Carlos",
+    "apellido1": "Emilio",
+    "apellido2": "Diez",
+    "edad": 27,
+    "cometas": [
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Teruel"
+      },
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Valencia"
+      },
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Salamanca"
+      }
+    ]
+  },
+  {
+    "nombre": "Diego",
+    "apellido1": "Gonzalez",
+    "apellido2": "Sanz",
+    "edad": 20,
+    "cometas": [
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Alicante"
+      },
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Soria"
+      },
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Mallorca"
+      }
+    ]
+  },
+  {
+    "nombre": "Javier",
+    "apellido1": "Martinez",
+    "apellido2": "Velasco",
+    "edad": 22,
+    "cometas": [
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Murcia"
+      },
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Pamplona"
+      },
+      {
+        "vientoMinimo": 20,
+        "ubicacionUso": "Salamanca"
+      }
+    ]
+  }
+
+]

@@ -1,0 +1,20 @@
+{
+  "nombre": "Victor",
+  "apellido1": "Sanz",
+  "apellido2": "Carrascal",
+  "edad": 25,
+  "cometas": [
+    {
+      "vientoMinimo": 18,
+      "ubicacionUso": "Madrid"
+    },
+    {
+      "vientoMinimo": 18,
+      "ubicacionUso": "Caraquiz, Uceda (Guadalajara)"
+    },
+    {
+      "vientoMinimo": 18,
+      "ubicacionUso": "Torrevieja, Alicante"
+    }
+  ]
+}
