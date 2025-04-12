@@ -1,5 +1,7 @@
 package clases;
 
+import excepcionesPropias.KiteNotFoundException;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,6 +58,9 @@ public final class Persona {
     }
 
     public void addCometa(Cometa cometa){
+        if (cometa == null)
+            throw new NullPointerException("Me has pasado una cometa que apunta a null");
+
         cometas.add(cometa);
     }
 
@@ -76,7 +81,13 @@ public final class Persona {
     }
 
     public void eliminarCometa(Cometa cometa){
-        cometas.remove(cometa);
+        if (cometa == null)
+            throw new NullPointerException("Me has pasado una cometa que apunta a null");
+
+        boolean eliminado = cometas.remove(cometa);
+
+        if (!eliminado)
+            throw new KiteNotFoundException("La cometa que has pasado no existe en la lista");
     }
 
     @Override
