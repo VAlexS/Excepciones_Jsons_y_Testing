@@ -17,7 +17,7 @@ class CometaTest {
 
 
     @Test
-    @DisplayName("Compruebo si determina si la cometa vuela o no dada la velocidad actual del viento en km/h")
+    @DisplayName("La cometa debe volar")
     void dadaLaVelocidadDelVientoComprueboSiLaCometaVuela() {
         assertTrue(cometa.vuela(30));
     }
