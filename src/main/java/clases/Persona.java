@@ -77,7 +77,10 @@ public final class Persona {
     }
 
     public int cantidadCometas(){
-        return cometas.size();
+        if (tieneCometas())
+            return cometas.size();
+        else
+            return 0;
     }
 
     public void eliminarCometa(Cometa cometa){
