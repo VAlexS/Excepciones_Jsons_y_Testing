@@ -70,7 +70,7 @@ class PersonaTest {
     }
 
     @Test
-    @DisplayName("Tiene cometa en Valladolid")
+    @DisplayName("No tiene cometa en Valladolid")
     void cometaEnValladolid(){
         assertFalse(persona.ubicacionConCometa("Valladolid"));
     }
