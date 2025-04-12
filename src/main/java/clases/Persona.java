@@ -66,9 +66,6 @@ public final class Persona {
         return false;
     }
 
-    public void removeCometa(Cometa cometa){
-        cometas.remove(cometa);
-    }
 
     public boolean tieneCometas(){
         return !cometas.isEmpty();
