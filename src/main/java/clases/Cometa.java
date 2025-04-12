@@ -38,7 +38,7 @@ public final class Cometa {
         return velocidadViento >= vientoMinimo;
     }
 
-    /*ojo, no estoy sobreescribiendo el metodo equals, estoy sobrecargando el metodo equals, ya que el metodo equals
+    /*ojo, no estoy sobreescribiendo el método equals, estoy sobrecargando el método equals, ya que el método equals
     recibe un Object (la madre de todas las clases de java)*/
     public boolean equals(Cometa cometa){
         return cometa.getUbicacionUso().equals(ubicacionUso) && cometa.getVientoMinimo() == vientoMinimo;

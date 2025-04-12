@@ -87,10 +87,20 @@ public final class Persona {
         if (cometa == null)
             throw new NullPointerException("Me has pasado una cometa que apunta a null");
 
-        boolean eliminado = cometas.remove(cometa);
+        for (int i = 0; i < cometas.size(); i++)
+            if (cometas.get(i).equals(cometa)){
+                cometas.remove(i);
+                return; //interrumpo la ejecución del método
+            }
 
-        if (!eliminado)
-            throw new KiteNotFoundException("La cometa que has pasado no existe en la lista");
+        /*esto se ejecuta solo si no se ha encontrado la cometa, ya que el return del bucle garantiza que de encontrar la cometa a
+        * eliminar, se interrumpe la ejecución del método*/
+        throw new KiteNotFoundException("La cometa que has pasado no existe en la lista");
+
+    }
+
+    public void eliminarTodasLasCometas(){
+        cometas.removeAll(cometas);
     }
 
     @Override
