@@ -2,18 +2,17 @@ package jsonsExamples;
 
 import clases.Persona;
 
-import java.util.List;
-
 import static utilPropio.Operaciones.*;
 
 public class JSONExample2 {
 
-
     public static void main(String[] args) {
 
-        List<Persona> personas = generarListaObjetos(leerVariosObjetos("variasPersonas"), Persona.class);
+        String json2 = readJSONFile("cometasPersona2");
 
-        System.out.println(personas);
+        Persona persona2 = convertirJSONaObjeto(json2, Persona.class);
 
+
+        System.out.println(persona2.getCometas().get(1).vuela(30));
     }
 }

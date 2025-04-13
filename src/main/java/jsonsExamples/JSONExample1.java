@@ -24,26 +24,5 @@ public class JSONExample1 {
 
         saveJSONtoFile(personaJson, "cometasPersona1");
 
-        /*String json2 = readJSONFile("cometasPersona2");
-
-        Persona persona2 = convertirJSONaObjeto(json2, Persona.class);
-
-
-
-
-
-        System.out.println(persona2.getCometas().get(1).vuela(30));*/
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
